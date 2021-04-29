@@ -1,0 +1,48 @@
+*{
+	color:black;
+	background-color: green;
+	font-size: 20px;
+	font-family: arial;
+}
+
+
+
+
+mark {
+ 	color:red;
+ 	text-decoration: underline;
+}
+ 
+.navbar {
+  width: 100%;
+  background-color: #C733FF;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%; 
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #3933FF;
+}
+
+.navbar a.active {
+  background-color: #C733FF;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
